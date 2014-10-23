@@ -13,6 +13,7 @@
 		B7DC243E19F84B3D0076FB47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7DC243D19F84B3D0076FB47 /* Images.xcassets */; };
 		B7DC244119F84B3D0076FB47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7DC243F19F84B3D0076FB47 /* LaunchScreen.xib */; };
 		B7DC244D19F84B3D0076FB47 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DC244C19F84B3D0076FB47 /* FunFactsTests.swift */; };
+		B7DC245919F879B40076FB47 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DC245819F879B40076FB47 /* FactBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		B7DC244619F84B3D0076FB47 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7DC244B19F84B3D0076FB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7DC244C19F84B3D0076FB47 /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		B7DC245619F86B0F0076FB47 /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scratchpad.playground; sourceTree = "<group>"; };
+		B7DC245819F879B40076FB47 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				B7DC243319F84B3D0076FB47 /* FunFacts */,
+				B7DC245719F86B1E0076FB47 /* Playgrounds */,
 				B7DC244919F84B3D0076FB47 /* FunFactsTests */,
 				B7DC243219F84B3D0076FB47 /* Products */,
 			);
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				B7DC243619F84B3D0076FB47 /* AppDelegate.swift */,
+				B7DC245819F879B40076FB47 /* FactBook.swift */,
 				B7DC243819F84B3D0076FB47 /* ViewController.swift */,
 				B7DC243A19F84B3D0076FB47 /* Main.storyboard */,
 				B7DC243D19F84B3D0076FB47 /* Images.xcassets */,
@@ -110,6 +115,14 @@
 				B7DC244B19F84B3D0076FB47 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7DC245719F86B1E0076FB47 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				B7DC245619F86B0F0076FB47 /* Scratchpad.playground */,
+			);
+			name = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7DC245919F879B40076FB47 /* FactBook.swift in Sources */,
 				B7DC243919F84B3D0076FB47 /* ViewController.swift in Sources */,
 				B7DC243719F84B3D0076FB47 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +419,7 @@
 				B7DC245219F84B3D0076FB47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7DC245319F84B3D0076FB47 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +428,7 @@
 				B7DC245519F84B3D0076FB47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
